@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>MAYO: all-in-one minifier</title>
+		<meta name="description" content="Open source minifier collection">
+		<link rel="icon" href="/favicon.ico">
+		<link rel="stylesheet" href="Style.css">
+	</head>
+	<body>
+
+		<div class="Meta border">
+			<header>MAYO</header>
+			<hr>
+			<a href="https://github.com/MechanicPetux/MAYO">
+				<button class="Header-Entry">
+					<img style="width: 10%; padding: 0 3% 0 3%;" src="Github.svg">Source code
+				</button>
+			</a>
+			<footer>
+				<div style="font-size: 3vh; padding: 4%; background: #999;">
+				Powered by:
+				<a style="display: block;" href="https://github.com/terser/terser">Terser</a>
+				<a style="display: block;" href="https://github.com/css/csso">CSSO</a>
+				<a style="display: block;" href="https://github.com/terser/html-minifier-terser">HTMLMinifier</a>
+				<a style="display: block;" href="https://github.com/Stuk/jszip">JSZip</a>
+				</div>
+			</footer>
+		</div>
+
+		<div class="border" style="position: relative;">
+			<div style="font-size: 3vh; padding: 1%;">
+				I made this website because i'm too lazy to hop over different websites to minifiy my code, often bad or without any options (which is kinda sad too).<br>
+				Here it want to collect the best available minifiers, and make the process as simple as it even can.<br>
+				Just dump your code on this page in zip or simple files, and get your code but smaller.<br><br>
+				Currently supported languages: JSON, JavaScript, CSS, HTML.
+			</div>
+			<footer>
+				<input type="file" accept=".json,.css,.js,.html,.zip,.jar" multiple id="Input">
+				<div id="WorkingOn"></div>
+			</footer>
+		</div>
+
+		<div class="border" style="position: relative;">
+			<textarea id="Warns"></textarea>
+			<textarea id="Errors"></textarea>
+		</div>
+
+		<div class="Options border">
+			<img src="nuh uh.png" alt="" style="max-width: 100%; height: auto;">
+			<div id="nuh-uh">SOMEDAY HERE WILL BE OPTIONS...</div>
+		</div>
+
+		<div id="DropOverlay">Drop it!</div>
+		<script src="Minifiers.js"></script>
+		<script src="jszip.min.js"></script>
+		<script src="Main.js"></script>
+	</body>
+</html>
