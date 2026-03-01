@@ -1,7 +1,7 @@
 # MAYO
 All-in-one minifier collection
 
-[![Русский Перевод](https://mechanicpetux.lol/stuff/Shield_ru.svg)](ReadMe.ru.md)
+[![Русский Перевод](https://mechanicpetux.lol/stuff/Shield_ru.svg)](README.ru.md)
 
 ## Usage
 The app is avaliable [here](https://mechanicpetux.lol/mayo/)<br>
